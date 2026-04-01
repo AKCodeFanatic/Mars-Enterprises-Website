@@ -1,13 +1,17 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import logo from "../../assets/logos/Mars_Logo.jpeg"
+import { useNavigate } from "react-router-dom"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [showNav, setShowNav] = useState(true)
+  const navigate = useNavigate()
 
   useEffect(() => {
     let lastScrollY = window.scrollY
+
+    
 
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
@@ -52,34 +56,38 @@ const Navbar = () => {
             </Link>
 
             <Link 
-              to="/" 
+              to="/#about" 
               className="px-3 py-2 rounded-md transition-all duration-300 hover:bg-black hover:text-white"
             >
               About Us
             </Link>
 
+            <button
+            onClick={() => {
+              navigate("/products", {
+                state: { selectedIndustry: null },                
+              })
+              window.scrollTo({ top: 0, behavior: "smooth" })
+            }}
+            className="px-3 py-2 rounded-md transition-all duration-300 hover:bg-black hover:text-white"
+          >
+            Products
+            </button>
             <Link 
-              to="/products" 
-              className="px-3 py-2 rounded-md transition-all duration-300 hover:bg-black hover:text-white"
-            >
-              Products
-            </Link>
-
-            <Link 
-              to="/industries" 
+              to="/#industries" 
               className="px-3 py-2 rounded-md transition-all duration-300 hover:bg-black hover:text-white"
             >
               Industries
             </Link>
 
             {/* CTA Button */}
-            <a
-              href="https://wa.me/91XXXXXXXXXX"
-              target="_blank"
+            <Link
+               to="/contact" 
+              
               className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition"
             >
               Enquire Now
-            </a>
+            </Link>
 
           </div>
 
