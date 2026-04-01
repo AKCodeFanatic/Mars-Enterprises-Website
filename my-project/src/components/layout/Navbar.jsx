@@ -114,6 +114,7 @@ const Navbar = () => {
         className={`fixed top-0 left-0 h-full w-64 bg-white z-50 shadow-lg transform transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
+        
       >
         <div className="p-4 flex flex-col gap-4 mt-10">
 
@@ -126,7 +127,7 @@ const Navbar = () => {
           </Link>
 
           <Link 
-            to="/" 
+            to="/#about" 
             onClick={() => setIsOpen(false)} 
             className="p-2 rounded transition hover:bg-black hover:text-white"
           >
@@ -142,19 +143,20 @@ const Navbar = () => {
           </Link>
 
           <Link 
-            to="/industries" 
+            to="/#industries" 
             onClick={() => setIsOpen(false)} 
             className="p-2 rounded transition hover:bg-black hover:text-white"
           >
             Industries
           </Link>
 
-          <a
-            href="https://wa.me/91XXXXXXXXXX"
+          <Link
+            to="/contact" 
+            onClick={() => setIsOpen(false)} 
             className="bg-black text-white px-4 py-2 rounded text-center hover:bg-gray-800 transition"
           >
             Enquire Now
-          </a>
+          </Link>
 
         </div>
       </div>
