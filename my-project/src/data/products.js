@@ -40,7 +40,7 @@ export const products = [
     primaryMaterial: {
       name: "Natural Rubber",
       specifications: {
-        hardness: "55 ± 5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "7 – 10 MPa",
         elongation: "250 – 350%",
         temperatureRange: "-30°C to +110°C",
@@ -92,7 +92,7 @@ export const products = [
     primaryMaterial: {
       name: "Natural Rubber",
       specifications: {
-        hardness: "60 ±5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "8 – 11 MPa",
         elongation: "250 – 300%",
         temperatureRange: "-30°C to +120°C",
@@ -126,7 +126,7 @@ export const products = [
 
   // FG_WAS_1_1/2
   {
-    id: "FG_WAS_1_1/2",
+    id: "FG_WAS_1_12",
     // Basic Info
     name: "Rubber Gasket Washer (1-1/2 Inches)",
     shortDescription:
@@ -144,7 +144,7 @@ export const products = [
     primaryMaterial: {
       name: "Natural Rubber",
       specifications: {
-        hardness: "60 ±5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "7 – 10 MPa",
         elongation: "200 – 300%",
         temperatureRange: "-30°C to +110°C",
@@ -196,11 +196,11 @@ export const products = [
     primaryMaterial: {
       name: "NBR",
       specifications: {
-        hardness: "60 ±5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "10 – 15 MPa",
         elongation: "300 – 450%",
         temperatureRange: "-25°C to +100°C",
-        density: "1.20 g/cm³³",
+        density: "1.20 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -252,7 +252,7 @@ export const products = [
         tensileStrength: "18 – 22 MPa",
         elongation: "400 – 600%",
         temperatureRange: "-20°C to +80°C",
-        density: "1.10 g/cm³³",
+        density: "1.10 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -301,11 +301,11 @@ export const products = [
     primaryMaterial: {
       name: "Silicone",
       specifications: {
-        hardness: "50 ± 5 Shore A",
+        hardness: "35 ± 5 Shore A",
         tensileStrength: "7 – 10 MPa",
         elongation: "300 – 450%",
         temperatureRange: "-50°C to +200°C",
-        density: "1.15 g/cm³³",
+        density: "1.15 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -354,11 +354,11 @@ export const products = [
     primaryMaterial: {
       name: "Silicone",
       specifications: {
-        hardness: "50 ± 5 Shore A",
+        hardness: "35 ± 5 Shore A",
         tensileStrength: "7 – 10 MPa",
         elongation: "300 – 450%",
         temperatureRange: "-50°C to +200°C",
-        density: "1.15 g/cm³³",
+        density: "1.15 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -407,11 +407,11 @@ export const products = [
     primaryMaterial: {
       name: "Natural Rubber",
       specifications: {
-        hardness: "50 ± 5 Shore A",
+        hardness: "45 ± 5 Shore A",
         tensileStrength: "18 – 22 MPa",
         elongation: "400 – 600%",
         temperatureRange: "-20°C to +80°C",
-        density: "1.10 g/cm³³",
+        density: "1.10 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -460,11 +460,11 @@ export const products = [
     primaryMaterial: {
       name: "Natural Rubber",
       specifications: {
-        hardness: "50 ± 5 Shore A",
+        hardness: "25 ± 5 Shore A",
         tensileStrength: "16 – 20 MPa",
         elongation: "350 – 500%",
         temperatureRange: "-20°C to +80°C",
-        density: "1.12 g/cm³³",
+        density: "1.12 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -513,11 +513,11 @@ export const products = [
     primaryMaterial: {
       name: "NBR",
       specifications: {
-        hardness: "60 ± 5 Shore A",
+        hardness: "45 ± 5 Shore A",
         tensileStrength: "10 – 15 MPa",
         elongation: "300 – 450%",
         temperatureRange: "-25°C to +100°C",
-        density: "1.20 g/cm³³",
+        density: "1.20 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -566,7 +566,7 @@ export const products = [
     primaryMaterial: {
       name: "Silicone",
       specifications: {
-        hardness: "45 ± 5 Shore A",
+        hardness: "35 ± 5 Shore A",
         tensileStrength: "7 – 9 MPa",
         elongation: "350 – 500%",
         temperatureRange: "-50°C to +200°C",
@@ -619,11 +619,11 @@ export const products = [
     primaryMaterial: {
       name: "NBR",
       specifications: {
-        hardness: "60 ± 5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "10 – 15 MPa",
         elongation: "300 – 450%",
         temperatureRange: "-25°C to +100°C",
-        density: "1.20 g/cm³³",
+        density: "1.20 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -672,11 +672,11 @@ export const products = [
     primaryMaterial: {
       name: "NBR",
       specifications: {
-        hardness: "60 ± 5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "10 – 15 MPa",
         elongation: "300 – 450%",
         temperatureRange: "-25°C to +100°C",
-        density: "1.20 g/cm³³",
+        density: "1.20 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -725,7 +725,7 @@ export const products = [
     primaryMaterial: {
       name: "NBR",
       specifications: {
-        hardness: "65 ± 5 Shore A",
+        hardness: "25 ± 5 Shore A",
         tensileStrength: "10 – 15 MPa",
         elongation: "300 – 400%",
         temperatureRange: "-25°C to +100°C",
@@ -778,11 +778,11 @@ export const products = [
     primaryMaterial: {
       name: "Natural Rubber",
       specifications: {
-        hardness: "55 ± 5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "16 – 20 MPa",
         elongation: "350 – 500%",
         temperatureRange: "-20°C to +80°C",
-        density: "1.12 g/cm³³",
+        density: "1.12 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -937,11 +937,11 @@ export const products = [
     primaryMaterial: {
       name: "Silicone",
       specifications: {
-        hardness: "45 ± 5 Shore A",
+        hardness: "35 ± 5 Shore A",
         tensileStrength: "7 – 9 MPa",
         elongation: "350 – 500%",
         temperatureRange: "-50°C to +200°C",
-        density: "1.15 g/cm³³",
+        density: "1.15 g/cm³",
       },
     },
     // Other Materials (just mention, no specs)
@@ -990,7 +990,7 @@ export const products = [
     primaryMaterial: {
       name: "Natural Rubber",
       specifications: {
-        hardness: "55 ± 5 Shore A",
+        hardness: "50 ± 5 Shore A",
         tensileStrength: "16 – 20 MPa",
         elongation: "350 – 500%",
         temperatureRange: "-20°C to +80°C",
