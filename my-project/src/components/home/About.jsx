@@ -7,7 +7,7 @@ const stats = [
     desc: "Decades of expertise delivering precision rubber solutions",
   },
   {
-    title: "100+",
+    title: "50+",
     label: "Products",
     desc: "Wide range of high-performance engineered components",
   },
@@ -17,7 +17,7 @@ const stats = [
     desc: "Skilled team ensuring consistency, quality & reliability",
   },
   {
-    title: "10+",
+    title: "5+",
     label: "Industries",
     desc: "Serving critical industrial sectors with precision",
   },
