@@ -143,7 +143,7 @@ const ProductsDetail = () => {
             </div>
 
             {/* ================= DOWNLOAD ================= */}
-            <div className="mt-6 text-center">
+            {/* <div className="mt-6 text-center">
               <a
                 href={product.datasheet}
                 download
@@ -159,7 +159,7 @@ const ProductsDetail = () => {
               >
                 Download Datasheet
               </a>
-            </div>
+            </div> */}
 
             {/* ================= NOTE ================= */}
             <div className="mt-6 text-sm text-gray-600 border-t pt-4">
