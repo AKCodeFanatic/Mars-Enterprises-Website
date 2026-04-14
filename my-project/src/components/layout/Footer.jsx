@@ -82,7 +82,7 @@ const Footer = () => {
 
         © {new Date().getFullYear()} Mars Enterprises. All rights reserved. <br />
 
-        Designed by{" "}
+        Designed & Developed by{" "}
         <a
           href="https://www.linkedin.com/in/akarshit-singh-ba821b225"
           target="_blank"
