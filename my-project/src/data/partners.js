@@ -4,6 +4,7 @@ import logo3 from "../assets/logos/hindware.png"
 import logo4 from "../assets/logos/jaguar.png"
 import logo5 from "../assets/logos/pdb.jpg"
 import logo6 from "../assets/logos/sf.png"
+import logo7 from "../assets/logos/tkt.png"
 
 export const partners = [
   { name: "Partner 1", logo: logo1 },
@@ -11,5 +12,7 @@ export const partners = [
   // { name: "Partner 3", logo: logo3 },
   // { name: "Partner 4", logo: logo4 },
   { name: "Partner 5", logo: logo5 },
+  { name: "Partner 5", logo: logo5 },
   { name: "Partner 6", logo: logo6 },
+  { name: "Partner 7", logo: logo7 },
 ]
