@@ -12,7 +12,6 @@ export const partners = [
   // { name: "Partner 3", logo: logo3 },
   // { name: "Partner 4", logo: logo4 },
   { name: "Partner 5", logo: logo5 },
-  { name: "Partner 5", logo: logo5 },
   { name: "Partner 6", logo: logo6 },
   { name: "Partner 7", logo: logo7 },
 ]
