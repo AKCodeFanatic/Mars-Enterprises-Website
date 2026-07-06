@@ -9,9 +9,9 @@ import logo7 from "../assets/logos/tkt.png"
 export const partners = [
   { name: "Partner 1", logo: logo1 },
   { name: "Partner 2", logo: logo2 },
-  // { name: "Partner 3", logo: logo3 },
-  // { name: "Partner 4", logo: logo4 },
+
   { name: "Partner 5", logo: logo5 },
   { name: "Partner 6", logo: logo6 },
   { name: "Partner 7", logo: logo7 },
+  
 ]

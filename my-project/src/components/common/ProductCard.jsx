@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
           border border-gray-200
           transition-all duration-300 
           hover:-translate-y-2
-          hover:shadow-xl   
+          hover:shadow-xl  
           group
           text-center
         "
@@ -40,8 +40,8 @@ const ProductCard = ({ product }) => {
             bg-white
             group-hover:bg-gradient-to-r 
             group-hover:from-gray-900 
-            group-hover:to-zinc-700 
-            group-hover:to-transparent
+            group-hover: to-zinc-700 
+            group-hover: to-transparent
           "
         >
           <h3
