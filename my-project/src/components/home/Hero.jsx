@@ -9,7 +9,7 @@ const Hero = () => {
           w-full 
           h-[180px] 
           sm:h-[250px] 
-          md:h-[350px] 
+          md:h-[350px]
           lg:h-[420px]
           bg-cover 
           bg-center 

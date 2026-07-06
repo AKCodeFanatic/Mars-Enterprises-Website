@@ -1,7 +1,7 @@
 import img1 from "../../assets/images/Partnership.png"
 import img2 from "../../assets/images/Final_Settings.png"
 import img3 from "../../assets/images/workflow.png"
-
+  
 const WhyChooseUs = () => {
   return (
     <section className="pt-12 pb-12 md:pt-16 md:pb-16 bg-gray-50">
